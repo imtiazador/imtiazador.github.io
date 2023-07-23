@@ -9,9 +9,9 @@ body {
 }
 .navbar-container {
   background-color: #262b37;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 2; */
 }
 .about-container {
   background-color: #00bdbd;
@@ -39,4 +39,9 @@ body {
 }
 .footer-container {
   background-color: #2bb3dd;
+}
+@media (max-width: 768px) {
+  .navbar-container {
+    position: static;
+  }
 }
